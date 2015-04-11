@@ -16,22 +16,22 @@
     <title>YouthForRestoration</title>
     <script>
         function home(){
-            location.assign("../web/index.php");
+            location.assign("https://youthforrestoration.herokuapp.com/web/index.php");
         }
         function aboutpage(){
-            location.assign("../web/aboutpage.php");
+            location.assign("https://youthforrestoration.herokuapp.com/web/aboutpage.php");
         }
         function contactpage(){
-            location.assign("../web/contactpage.php");
+            location.assign("https://youthforrestoration.herokuapp.com/web/contactpage.php");
         }
         function projectpage(){
-            location.assign("../web/projectspage.php");
+            location.assign("https://youthforrestoration.herokuapp.com/web/projectspage.php");
         }
         function newspage(){
-            location.assign("../web/newspage.php");
+            location.assign("https://youthforrestoration.herokuapp.com/web/newspage.php");
         }
         function donatepage(){
-            location.assign("../web/donate.php");
+            location.assign("https://youthforrestoration.herokuapp.com/web/donatepage.php");
         }
     </script>
     <link type="text/css" rel="stylesheet" href="CSS/layout.css"/>
