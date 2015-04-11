@@ -1,3 +1,9 @@
+/**
+ * Created by PhpStorm.
+ * User: Aston
+ * Date: 4/11/2015
+ * Time: 5:56 PM
+ */
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +29,7 @@
         }
     </script>
     <link type="text/css" rel="stylesheet" href="CSS/layout.css"/>
-    <link type="text/css" rel="stylesheet" href="CSS/homepage.css"/>
+    <link type="text/css" rel="stylesheet" href="CSS/contactpage.css"/>
 </head>
 <body id="body">
 <div id="contentwrapper">
@@ -39,11 +45,23 @@
         </ul>
     </div>
     <div id="body-wrapper">
-        <div id="homepagespace"></div>
-        <div id="homepagecontent" class="container">
-            <h2 class="text">Youth for Restoration is a youth-led, nonprofit  organization located in the Hudson Valley, New York.
-                We are dedicated to preserving and restoring local historic sites. ​</h2>
-        </div>
+        <h1 class="text" id="contactpageinfo">Please feel free to reach out to us using this form. If you would like to get involved, we welcome ​
+            volunteers. Your support is invaluable in helping us preserve our history!​</h1>
+
+        <form id="infoform" class="container">
+            <label id="namelabel" class="text">Name:</label>
+            <input type="text" name="fullname"/><br/>
+            <br/>
+            <label id="emaillabel" class="text">Email:</label>
+            <input type="text" name="email"/><br/>
+            <br/>
+            <label id="otherinfolabel" class="text">Other contact info:</label>
+            <input type="text" name="extrainfo"/><br/>
+            <br/>
+            <label id="textarealabel" class="text">Message:</label>
+            <textarea></textarea>
+        </form>
+        <br/>
     </div>
     <div class="clearfooter"></div>
 </div>
@@ -61,4 +79,3 @@
 </div>
 </body>
 </html>
-

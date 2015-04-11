@@ -1,0 +1,14 @@
+div#homepagecontent{
+    width: 60%;
+    float: right;
+}
+
+h2{
+    padding-left: .4em;
+    padding-right: .4em;
+}
+
+div#homepagespace{
+    height: 20em;
+}
+

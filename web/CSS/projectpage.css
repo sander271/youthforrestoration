@@ -1,0 +1,20 @@
+div#projectoverview{
+    margin: 0 auto;
+    width: 40%;
+}
+
+.projecttableimg{
+    width: 3em;
+    height: 3em;
+}
+
+.projecttabletext{
+    padding-right: 3em;
+    cursor: pointer;
+}
+
+table#projecttable{
+    margin: 0 auto;
+    /*margin: 0 auto;*/
+}
+

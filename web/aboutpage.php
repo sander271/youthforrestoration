@@ -1,3 +1,9 @@
+/**
+ * Created by PhpStorm.
+ * User: Aston
+ * Date: 4/11/2015
+ * Time: 5:54 PM
+ */
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +29,7 @@
         }
     </script>
     <link type="text/css" rel="stylesheet" href="CSS/layout.css"/>
-    <link type="text/css" rel="stylesheet" href="CSS/homepage.css"/>
+    <link type="text/css" rel="stylesheet" href="CSS/aboutpage.css"/>
 </head>
 <body id="body">
 <div id="contentwrapper">
@@ -39,11 +45,41 @@
         </ul>
     </div>
     <div id="body-wrapper">
-        <div id="homepagespace"></div>
-        <div id="homepagecontent" class="container">
-            <h2 class="text">Youth for Restoration is a youth-led, nonprofit  organization located in the Hudson Valley, New York.
-                We are dedicated to preserving and restoring local historic sites. ​</h2>
-        </div>
+        <table>
+            <thead></thead>
+            <tbody>
+            <tr>
+                <td id="aboutpagetdleft">
+                    <div id="left" class="container">
+                        <p class="text size13">Founded in 2012, Youth for Restoration ​
+                            (YFR) is a nonprofit, tax-exempt charitable ​
+                            organization under Section 501(c)(3) of the ​
+                            Internal Revenue Code. </p>
+                        <p class="text size13">The mission of the organization is to engage ​
+                            local communities to identify and restore old ​
+                            historic sites and pursue their nomination to the ​
+                            State and National Register of Historic Places.</p>
+                    </div>
+                </td>
+                <td id="aboutpagetdright">
+                    <div id="right" class="container">
+                        <h2 class="text">Founder</h2>
+                        <ul class="info">
+                            <li class="text font">Viraj Kumar</li>
+                        </ul>
+                        <h2 class="text">Board Members</h2>
+                        <ul class="info">
+                            <li class="text font">Eric Layden</li>
+                            <li class="text font">Lauren Macdonald</li>
+                            <li class="text font">Lauren Neville</li>
+                            <li class="text font">​Jordon Scocozza​</li>
+                            <li class="text font">Christian Soto</li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
     </div>
     <div class="clearfooter"></div>
 </div>

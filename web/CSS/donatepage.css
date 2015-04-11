@@ -1,0 +1,28 @@
+div#leftside{
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+div#rightside{
+    width: 50%;
+}
+
+.donatetext{
+    font-size: 1.2em;
+    padding-left: .3em;
+}
+
+.donatelistitem{
+    padding-top: .4em;
+    font-size: 1.2em;
+}
+
+.donateheader{
+    padding-left: .3em;
+}
+
+td#donatepagetdleft{
+    padding-right: 2em;
+    width: 50%;
+}
+
