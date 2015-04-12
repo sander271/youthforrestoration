@@ -1,37 +1,25 @@
-/**
- * Created by PhpStorm.
- * User: Aston
- * Date: 4/11/2015
- * Time: 5:58 PM
- */
-/**
-* Created by PhpStorm.
-* User: Aston
-* Date: 4/11/2015
-* Time: 5:56 PM
-*/
 <!DOCTYPE html>
 <html>
 <head>
     <title>YouthForRestoration</title>
     <script>
         function home(){
-            location.assign("https://youthforrestoration.herokuapp.com/web/index.php");
+            location.assign("../web/index.php");
         }
         function aboutpage(){
-            location.assign("https://youthforrestoration.herokuapp.com/web/aboutpage.php");
+            location.assign("../web/aboutpage.php");
         }
         function contactpage(){
-            location.assign("https://youthforrestoration.herokuapp.com/web/contactpage.php");
+            location.assign("../web/contactpage.php");
         }
         function projectpage(){
-            location.assign("https://youthforrestoration.herokuapp.com/web/projectspage.php");
+            location.assign("../web/projectspage.php");
         }
         function newspage(){
-            location.assign("https://youthforrestoration.herokuapp.com/web/newspage.php");
+            location.assign("../web/newspage.php");
         }
         function donatepage(){
-            location.assign("https://youthforrestoration.herokuapp.com/web/donatepage.php");
+            location.assign("../web/donatepage.php");
         }
     </script>
     <link type="text/css" rel="stylesheet" href="CSS/layout.css"/>
