@@ -34,12 +34,12 @@
         <entry file="file://$PROJECT_DIR$/web/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6670507" vertical-offset="152" max-vertical-offset="1020">
-              <caret line="43" column="79" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="79" />
+              <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
               <folding>
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1429121441801" expanded="true" signature="76:189" placeholder="..." />
-                <marker date="1429121441801" expanded="true" signature="83:189" placeholder="..." />
-                <marker date="1429121441801" expanded="true" signature="135:189" placeholder="..." />
+                <marker date="1429121571473" expanded="true" signature="76:189" placeholder="..." />
+                <marker date="1429121571473" expanded="true" signature="83:189" placeholder="..." />
+                <marker date="1429121571473" expanded="true" signature="135:189" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -647,12 +647,12 @@
     <entry file="file://$PROJECT_DIR$/web/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6670507" vertical-offset="152" max-vertical-offset="1020">
-          <caret line="43" column="79" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="79" />
+          <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
           <folding>
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1429121441801" expanded="true" signature="76:189" placeholder="..." />
-            <marker date="1429121441801" expanded="true" signature="83:189" placeholder="..." />
-            <marker date="1429121441801" expanded="true" signature="135:189" placeholder="..." />
+            <marker date="1429121571473" expanded="true" signature="76:189" placeholder="..." />
+            <marker date="1429121571473" expanded="true" signature="83:189" placeholder="..." />
+            <marker date="1429121571473" expanded="true" signature="135:189" placeholder="..." />
           </folding>
         </state>
       </provider>
