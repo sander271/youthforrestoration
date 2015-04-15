@@ -32,5 +32,5 @@ $applicationIncludes = array(
     realpath(APPLICATION_PATH.DS.'services'),
     get_include_path(),
 );
-
+echo DOCUMENT_ROOT_DIR;
 ?>
