@@ -4,22 +4,22 @@
     <title>YouthForRestoration</title>
     <script>
         function home(){
-            location.assign("../web/index.php");
+            location.assign("index.php");
         }
         function aboutpage(){
-            location.assign("../web/aboutpage.php");
+            location.assign("aboutpage.php");
         }
         function contactpage(){
-            location.assign("../web/contactpage.php");
+            location.assign("contactpage.php");
         }
         function projectpage(){
-            location.assign("../web/projectspage.php");
+            location.assign("projectspage.php");
         }
         function newspage(){
-            location.assign("../web/newspage.php");
+            location.assign("newspage.php");
         }
         function donatepage(){
-            location.assign("../web/donatepage.php");
+            location.assign("donatepage.php");
         }
     </script>
     <link type="text/css" rel="stylesheet" href="CSS/layout.css"/>

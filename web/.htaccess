@@ -1,6 +1,17 @@
-#RewriteEngine on
-#RewriteBase /web/
-#RewriteCond %{REQUEST_FILENAME} !-f
-#RewriteCond %{REQUEST_FILENAME} !-d
-#
-#RewriteRule ^(.+) index.php [QSA,L]
+# switch on the URL rewrite engine
+RewriteEngine on
+
+# set the correct rewrite base
+RewriteBase /
+
+# redirect every request that targets an HTML page (a request ending with '.html' or '.htm')
+# to sitecake_entry.php, providing the original URI as the 'url' parameter value (e.g. url=/about.html)
+# avoiding HTML files from the '/sitecake' folder
+RewriteCond %{REQUEST_URI} ^.*\.html?$
+RewriteCond %{REQUEST_URI} !^/sitecake/.*$
+RewriteRule ^(.*)$ sitecake/server/sitecake_entry.php?url=$1 [QSA,L]
+
+# this rewrite rule handles an empty URI (e.g. http://example.com/)
+# a case when the index page has to be referenced
+RewriteCond %{REQUEST_URI} ^/?$
+RewriteRule ^(.*)$ sitecake/server/sitecake_entry.php?url=index.html [QSA,L]

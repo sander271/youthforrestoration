@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +24,9 @@
         }
     </script>
     <link type="text/css" rel="stylesheet" href="CSS/layout.css"/>
-    <link type="text/css" rel="stylesheet" href="CSS/aboutpage.css"/>
+    <link type="text/css" rel="stylesheet" href="CSS/homepage.css"/>
+<script type="text/javascript">var sitecakeGlobals = {editMode:false,sessionId:'<session id>',serverVersionId:'SiteCake server PHP 1.0.21',sessionServiceUrl:'/web/sitecake/server/sitecake_entry.php?controller=session',forceLoginDialog:false,config:{'Toolbar.components':'HEADING1,HEADING2,HEADING3,TEXTLIST,TEXT,SEP,IMAGE,SLIDESHOW,VIDEO,SEP,FLASH,MAP,HTML,FILE','FileUploaderItem.uploadSizeLimit':'8192','LocaleProxyImpl.interfaceLocale':'auto'}};</script>
+<script type="text/javascript" language="javascript" src="/web/sitecake/client/publicmanager/publicmanager.nocache.js"></script>
 </head>
 <body id="body">
 <div id="contentwrapper">
@@ -38,43 +41,7 @@
             <li class="nav-item" onclick="donatepage()">Donate</li>
         </ul>
     </div>
-    <div id="body-wrapper">
-        <table>
-            <thead></thead>
-            <tbody>
-            <tr>
-                <td id="aboutpagetdleft">
-                    <div id="left" class="container">
-                        <p class="text size13">Founded in 2012, Youth for Restoration ​
-                            (YFR) is a nonprofit, tax-exempt charitable ​
-                            organization under Section 501(c)(3) of the ​
-                            Internal Revenue Code. </p>
-                        <p class="text size13">The mission of the organization is to engage ​
-                            local communities to identify and restore old ​
-                            historic sites and pursue their nomination to the ​
-                            State and National Register of Historic Places.</p>
-                    </div>
-                </td>
-                <td id="aboutpagetdright">
-                    <div id="right" class="container">
-                        <h2 class="text">Founder</h2>
-                        <ul class="info">
-                            <li class="text font">Viraj Kumar</li>
-                        </ul>
-                        <h2 class="text">Board Members</h2>
-                        <ul class="info">
-                            <li class="text font">Eric Layden</li>
-                            <li class="text font">Lauren Macdonald</li>
-                            <li class="text font">Lauren Neville</li>
-                            <li class="text font">​Jordon Scocozza​</li>
-                            <li class="text font">Christian Soto</li>
-                        </ul>
-                    </div>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
+    <div id="body-wrapper" class="sc-content-editable"></div>
     <div class="clearfooter"></div>
 </div>
 <div id="bottombar" class="container">
