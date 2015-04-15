@@ -42,7 +42,7 @@
     <div id="body-wrapper">
         <div id="homepagespace"></div>
         <div id="homepagecontent" class="container">
-            <h2 class="text">Youth for Restoration is a youth-led, nonprofit  organization located in the Hudson Valley, New York.
+            <h2 class="text" class="sc-content-editable">Youth for Restoration is a youth-led, nonprofit  organization located in the Hudson Valley, New York.
                 We are dedicated to preserving and restoring local historic sites. ​</h2>
         </div>
     </div>
