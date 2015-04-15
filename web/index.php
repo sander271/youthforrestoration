@@ -1,25 +1,26 @@
+<?php //include "sitecake/server/sitecake_entry.php"; ?>
 <!DOCTYPE html>
 <html>
 <head>
     <title>YouthForRestoration</title>
     <script>
         function home(){
-            location.assign("../web/index.php");
+            location.assign("index.php");
         }
         function aboutpage(){
-            location.assign("../web/aboutpage.php");
+            location.assign("aboutpage.php");
         }
         function contactpage(){
-            location.assign("../web/contactpage.php");
+            location.assign("contactpage.php");
         }
         function projectpage(){
-            location.assign("../web/projectspage.php");
+            location.assign("projectspage.php");
         }
         function newspage(){
-            location.assign("../web/newspage.php");
+            location.assign("newspage.php");
         }
         function donatepage(){
-            location.assign("../web/donatepage.php");
+            location.assign("donatepage.php");
         }
     </script>
     <link type="text/css" rel="stylesheet" href="CSS/layout.css"/>
@@ -38,7 +39,7 @@
             <li class="nav-item" onclick="donatepage()">Donate</li>
         </ul>
     </div>
-    <div id="body-wrapper">
+    <div id="body-wrapper" class="sc-content-editable">
         <div id="homepagespace"></div>
         <div id="homepagecontent" class="container">
             <h2 class="text">Youth for Restoration is a youth-led, nonprofit  organization located in the Hudson Valley, New York.
