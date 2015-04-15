@@ -26,8 +26,7 @@
     <link type="text/css" rel="stylesheet" href="CSS/layout.css"/>
     <link type="text/css" rel="stylesheet" href="CSS/homepage.css"/>
 </head>
-<body id="body">
-<div class="sc-content-editable" style="width: 100%"></div>
+<body id="body" class="sc-content-editable">
 <div id="contentwrapper">
     <div id="navbarspace"></div>
     <div id="navbar">
