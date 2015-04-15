@@ -26,10 +26,10 @@
     <link type="text/css" rel="stylesheet" href="CSS/layout.css"/>
     <link type="text/css" rel="stylesheet" href="CSS/homepage.css"/>
 </head>
-<body id="body">
+<body id="body" >
 <div id="contentwrapper">
     <div id="navbarspace"></div>
-    <div id="navbar">
+    <div id="navbar" class="sc-content-editable">
         <ul id="menubar" class="container">
             <li class="nav-item" onclick=home()>Home</li>
             <li class="nav-item" onclick=aboutpage()>About Us</li>
@@ -39,16 +39,16 @@
             <li class="nav-item" onclick="donatepage()">Donate</li>
         </ul>
     </div>
-    <div id="body-wrapper" class="sc-content-editable">
+    <div id="body-wrapper">
         <div id="homepagespace"></div>
-        <div id="homepagecontent" class="container">
+        <div id="homepagecontent" class="container" class="sc-content-editable1">
             <h2 class="text">Youth for Restoration is a youth-led, nonprofit  organization located in the Hudson Valley, New York.
                 We are dedicated to preserving and restoring local historic sites. ​</h2>
         </div>
     </div>
     <div class="clearfooter"></div>
 </div>
-<div id="bottombar" class="container">
+<div id="bottombar" class="container" class="sc-content-editable2">
     <a href="https://www.facebook.com/youthforrestoration" target="_blank">
         <img class="thumbnail" src = "https://www.facebook.com/images/fb_icon_325x325.png" />
     </a>
