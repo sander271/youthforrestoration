@@ -26,7 +26,7 @@
     <link type="text/css" rel="stylesheet" href="CSS/layout.css"/>
     <link type="text/css" rel="stylesheet" href="CSS/homepage.css"/>
 </head>
-<body id="body" class="sc-content-editable">
+<body id="body">
 <div id="contentwrapper">
     <div id="navbarspace"></div>
     <div id="navbar">
@@ -41,7 +41,7 @@
     </div>
     <div id="body-wrapper">
         <div id="homepagespace"></div>
-        <div id="homepagecontent" class="container">
+        <div id="homepagecontent" class="container" class="sc-content-editable">
             <h2 class="text">Youth for Restoration is a youth-led, nonprofit  organization located in the Hudson Valley, New York.
                 We are dedicated to preserving and restoring local historic sites. ​</h2>
         </div>
