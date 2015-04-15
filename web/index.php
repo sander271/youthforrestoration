@@ -30,13 +30,13 @@
 <div id="contentwrapper">
     <div id="navbarspace"></div>
     <div id="navbar">
-        <ul id="menubar" class="container sc-content-editable1">
-            <li class="nav-item" onclick=home()>Home</li>
-            <li class="nav-item" onclick=aboutpage()>About Us</li>
-            <li class="nav-item" onclick="projectpage()">Projects</li>
-            <li class="nav-item" onclick="newspage()">News</li>
-            <li class="nav-item" onclick="contactpage()">Contact</li>
-            <li class="nav-item" onclick="donatepage()">Donate</li>
+        <ul id="menubar" class="container">
+            <li class="nav-item sc-content-editable1" onclick=home()>Home</li>
+            <li class="nav-item sc-content-editable1" onclick=aboutpage()>About Us</li>
+            <li class="nav-item sc-content-editable1" onclick="projectpage()">Projects</li>
+            <li class="nav-item sc-content-editable1" onclick="newspage()">News</li>
+            <li class="nav-item sc-content-editable1" onclick="contactpage()">Contact</li>
+            <li class="nav-item sc-content-editable1" onclick="donatepage()">Donate</li>
         </ul>
     </div>
     <div id="body-wrapper">
@@ -48,7 +48,7 @@
     </div>
     <div class="clearfooter"></div>
 </div>
-<div id="bottombar" class="container sc-content-editable2">
+<div id="bottombar" class="container">
     <a href="https://www.facebook.com/youthforrestoration" target="_blank">
         <img class="thumbnail" src = "https://www.facebook.com/images/fb_icon_325x325.png" />
     </a>
