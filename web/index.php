@@ -30,7 +30,7 @@
 <div id="contentwrapper">
     <div id="navbarspace"></div>
     <div id="navbar">
-        <ul id="menubar" class="container">
+        <ul id="menubar" class="container sc-content-editable1">
             <li class="nav-item" onclick=home()>Home</li>
             <li class="nav-item" onclick=aboutpage()>About Us</li>
             <li class="nav-item" onclick="projectpage()">Projects</li>
@@ -48,7 +48,7 @@
     </div>
     <div class="clearfooter"></div>
 </div>
-<div id="bottombar" class="container">
+<div id="bottombar" class="container sc-content-editable2">
     <a href="https://www.facebook.com/youthforrestoration" target="_blank">
         <img class="thumbnail" src = "https://www.facebook.com/images/fb_icon_325x325.png" />
     </a>

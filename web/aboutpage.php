@@ -44,7 +44,7 @@
             <tbody>
             <tr>
                 <td id="aboutpagetdleft">
-                    <div id="left" class="container">
+                    <div id="left" class="container sc-content-editable3">
                         <p class="text size13">Founded in 2012, Youth for Restoration ​
                             (YFR) is a nonprofit, tax-exempt charitable ​
                             organization under Section 501(c)(3) of the ​
@@ -56,7 +56,7 @@
                     </div>
                 </td>
                 <td id="aboutpagetdright">
-                    <div id="right" class="container">
+                    <div id="right" class="container sc-content-editable4">
                         <h2 class="text">Founder</h2>
                         <ul class="info">
                             <li class="text font">Viraj Kumar</li>
@@ -76,6 +76,7 @@
         </table>
     </div>
     <div class="clearfooter"></div>
+    <a href="#" class="sc-login">Admin login</a>
 </div>
 <div id="bottombar" class="container">
     <a href="https://www.facebook.com/youthforrestoration" target="_blank">
