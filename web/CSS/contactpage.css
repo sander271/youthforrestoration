@@ -9,29 +9,30 @@ textarea{
     height: 200px;
 }
 
-label#textarealabel{
-    font-size: 1.2em;
-    position: relative;
-    top: -10em;
-    padding-right: .5em;
-}
+/*label#textarealabel{*/
+    /*font-size: 1.2em;*/
+    /*position: relative;*/
+    /*top: -10em;*/
+    /*padding-right: .5em;*/
+/*}*/
 
-label#namelabel{
+label{
     font-size: 1.2em;
     padding-right: 6em;
 }
 
-label#emaillabel{
-    font-size: 1.2em;
-    padding-right: 6em;
-}
+/*label#emaillabel{*/
+    /*font-size: 1.2em;*/
+    /*padding-right: 6em;*/
+/*}*/
 
-label#otherinfolabel{
-    font-size: 1.2em;
-    padding-right: 1.15em;
-}
+/*label#otherinfolabel{*/
+    /*font-size: 1.2em;*/
+    /*padding-right: 1.15em;*/
+/*}*/
 
 form{
+    width: 60%;
     padding-bottom: 1em;
     padding-top: 1em;
     padding-left: 2em;

@@ -76,7 +76,6 @@
         </table>
     </div>
     <div class="clearfooter"></div>
-    <a href="#" class="sc-login">Admin login</a>
 </div>
 <div id="bottombar" class="container">
     <a href="https://www.facebook.com/youthforrestoration" target="_blank">

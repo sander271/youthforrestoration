@@ -42,19 +42,69 @@
         <h1 class="text" id="contactpageinfo">Please feel free to reach out to us using this form. If you would like to get involved, we welcome ​
             volunteers. Your support is invaluable in helping us preserve our history!​</h1>
 
-        <form id="infoform" class="container">
-            <label id="namelabel" class="text">Name:</label>
-            <input type="text" name="fullname"/><br/>
-            <br/>
-            <label id="emaillabel" class="text">Email:</label>
-            <input type="text" name="email"/><br/>
-            <br/>
-            <label id="otherinfolabel" class="text">Other contact info:</label>
-            <input type="text" name="extrainfo"/><br/>
-            <br/>
-            <label id="textarealabel" class="text">Message:</label>
-            <textarea></textarea>
+        <form name="contactform" method="post" action="send_form_email.php" class="container">
+            <table width="450px">
+                <tr>
+                    <td valign="top">
+                        <label for="first_name" class="text">First Name *</label>
+                    </td>
+                    <td valign="top">
+                        <input  type="text" name="first_name" maxlength="50" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top"">
+                    <label for="last_name" class="text">Last Name *</label>
+                    </td>
+                    <td valign="top">
+                        <input  type="text" name="last_name" maxlength="50" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <label for="email" class="text">Email Address *</label>
+                    </td>
+                    <td valign="top">
+                        <input  type="text" name="email" maxlength="80" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <label for="telephone" class="text">Telephone Number</label>
+                    </td>
+                    <td valign="top">
+                        <input  type="text" name="telephone" maxlength="30" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <label for="comments" class="text">Comments *</label>
+                    </td>
+                    <td valign="top">
+                        <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center">
+                        <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
+                    </td>
+                </tr>
+            </table>
         </form>
+
+<!--        <form id="infoform" class="container">-->
+<!--            <label id="namelabel" class="text">Name:</label>-->
+<!--            <input type="text" name="fullname"/><br/>-->
+<!--            <br/>-->
+<!--            <label id="emaillabel" class="text">Email:</label>-->
+<!--            <input type="text" name="email"/><br/>-->
+<!--            <br/>-->
+<!--            <label id="otherinfolabel" class="text">Other contact info:</label>-->
+<!--            <input type="text" name="extrainfo"/><br/>-->
+<!--            <br/>-->
+<!--            <label id="textarealabel" class="text">Message:</label>-->
+<!--            <textarea></textarea>-->
+<!--        </form>-->
         <br/>
     </div>
     <div class="clearfooter"></div>
