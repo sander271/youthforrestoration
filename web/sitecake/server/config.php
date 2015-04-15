@@ -19,7 +19,7 @@ define( 'SITECAKE_PUBLIC_MANAGER_URL', SITECAKE_BASE_RELATIVE_URL.'/sitecake/cli
 define( 'SITECAKE_CONTENT_MANAGER_URL', SITECAKE_BASE_RELATIVE_URL.'/sitecake/client/contentmanager/contentmanager.nocache.js' );
 define( 'CONTENT_BASE_URL', SITECAKE_BASE_RELATIVE_URL.'/sitecake-content');
 
-define( 'DOCUMENT_ROOT_DIR', substr($_SERVER['DOCUMENT_ROOT'],0, strlen($_SERVER['DOCUMENT_ROOT'])-20));
+define( 'DOCUMENT_ROOT_DIR', $_SERVER['DOCUMENT_ROOT'] );
 define( 'PHP_TEMPLATE', false );
 define( 'TEMPLATE_CACHING', true );
 
@@ -32,5 +32,5 @@ $applicationIncludes = array(
     realpath(APPLICATION_PATH.DS.'services'),
     get_include_path(),
 );
-echo DOCUMENT_ROOT_DIR;
+
 ?>
