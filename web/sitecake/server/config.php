@@ -20,7 +20,7 @@ define( 'SITECAKE_CONTENT_MANAGER_URL', SITECAKE_BASE_RELATIVE_URL.'/sitecake/cl
 define( 'CONTENT_BASE_URL', SITECAKE_BASE_RELATIVE_URL.'/sitecake-content');
 
 define( 'DOCUMENT_ROOT_DIR', $_SERVER['DOCUMENT_ROOT'] );
-define( 'PHP_TEMPLATE', false );
+define( 'PHP_TEMPLATE', true);
 define( 'TEMPLATE_CACHING', true );
 
 $applicationIncludes = array(
