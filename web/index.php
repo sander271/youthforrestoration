@@ -32,11 +32,11 @@
     <div id="navbar">
         <ul id="menubar" class="container">
             <li class="nav-item sc-content-editable1" onclick=home()>Home</li>
-            <li class="nav-item sc-content-editable1" onclick=aboutpage()>About Us</li>
-            <li class="nav-item sc-content-editable1" onclick="projectpage()">Projects</li>
-            <li class="nav-item sc-content-editable1" onclick="newspage()">News</li>
-            <li class="nav-item sc-content-editable1" onclick="contactpage()">Contact</li>
-            <li class="nav-item sc-content-editable1" onclick="donatepage()">Donate</li>
+            <li class="nav-item sc-content-editable2" onclick=aboutpage()>About Us</li>
+            <li class="nav-item sc-content-editable3" onclick="projectpage()">Projects</li>
+            <li class="nav-item sc-content-editable4" onclick="newspage()">News</li>
+            <li class="nav-item sc-content-editable5" onclick="contactpage()">Contact</li>
+            <li class="nav-item sc-content-editable6" onclick="donatepage()">Donate</li>
         </ul>
     </div>
     <div id="body-wrapper">
