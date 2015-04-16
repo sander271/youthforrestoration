@@ -95,7 +95,7 @@
     <div id="body-wrapper-projects">
         <br/>
         <br/>
-        <div id="projectoverview" class="container sc-content-editable5">
+        <div id="projectoverview" class="container">
             <table id="projecttable">
                 <tbody>
                 <tr class="projecttablerow">
@@ -136,7 +136,7 @@
     </div>
 
     <div id="body-wrapper-news">
-        <div id="news" class="container sc-content-editable6">
+        <div id="news" class="container">
             <ul id="newslist">
                 <li class="text newsitem">
                     <a class="newspagelink" target="_blank" href="http://www.twcnews.com/archives/nys/hudson-valley/2014/08/2/youth-helping-to-save-old-mill-house-in-beekman-NY_757971.old.html">
@@ -169,8 +169,10 @@
     </div>
 
     <div id="body-wrapper-contact">
-        <h1 class="text sc-content-editable7" id="contactpageinfo">Please feel free to reach out to us using this form. If you would like to get involved, we welcome ​
+        <div class="sc-content-editable6">
+        <h1 class="text" id="contactpageinfo">Please feel free to reach out to us using this form. If you would like to get involved, we welcome ​
             volunteers. Your support is invaluable in helping us preserve our history!​</h1>
+        </div>
 
         <form name="contactform" method="post" action="send_form_email.php" class="container">
             <table width="450px">
