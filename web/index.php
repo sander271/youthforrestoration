@@ -1,4 +1,4 @@
-<?php //include "sitecake/server/sitecake_entry.php"; ?>
+<?php include "sitecake/server/sitecake_entry.php"; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -95,7 +95,7 @@
     <div id="body-wrapper-projects">
         <br/>
         <br/>
-        <div id="projectoverview" class="container">
+        <div id="projectoverview" class="container sc-content-editable5">
             <table id="projecttable">
                 <tbody>
                 <tr class="projecttablerow">
@@ -136,7 +136,7 @@
     </div>
 
     <div id="body-wrapper-news">
-        <div id="news" class="container">
+        <div id="news" class="container sc-content-editable6">
             <ul id="newslist">
                 <li class="text newsitem">
                     <a class="newspagelink" target="_blank" href="http://www.twcnews.com/archives/nys/hudson-valley/2014/08/2/youth-helping-to-save-old-mill-house-in-beekman-NY_757971.old.html">
@@ -169,7 +169,7 @@
     </div>
 
     <div id="body-wrapper-contact">
-        <h1 class="text" id="contactpageinfo">Please feel free to reach out to us using this form. If you would like to get involved, we welcome ​
+        <h1 class="text sc-content-editable7" id="contactpageinfo">Please feel free to reach out to us using this form. If you would like to get involved, we welcome ​
             volunteers. Your support is invaluable in helping us preserve our history!​</h1>
 
         <form name="contactform" method="post" action="send_form_email.php" class="container">
@@ -229,7 +229,7 @@
             <tbody>
             <tr>
                 <td id="donatepagetdleft">
-                    <div id="leftside" class="container">
+                    <div id="leftside" class="container sc-content-editable8">
                         <h1 class="text donateheader">Ways to Give</h1>
                         <p class="text donatetext">​
                             Your contribution, no matter how large or small, will help support the<br> ​
@@ -248,7 +248,7 @@
                     </div>
                 </td>
                 <td id="donatepagetdright">
-                    <div id="rightside" class="container">
+                    <div id="rightside" class="container sc-content-editable9">
                         <h1 class="text donateheader">Ways to Get Involved</h1>
                         <ul>
                             <li class="text donatelistitem">Sign up to volunteer</li>
@@ -270,7 +270,7 @@
 
 <div id="bottombar" class="container">
     <a href="https://www.facebook.com/youthforrestoration" target="_blank">
-        <img class="thumbnail" src = "https://www.facebook.com/images/fb_icon_325x325.png" />
+        <img class="thumbnail sc-content-editable10" src = "https://www.facebook.com/images/fb_icon_325x325.png" />
     </a>
     <a href="https://twitter.com/Y_F_R_" target="_blank">
         <img class="thumbnail" src = "http://www.buggytours.nl/img/Twitterbutton.png" />
