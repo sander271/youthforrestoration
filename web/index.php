@@ -100,34 +100,50 @@
                 <tbody>
                 <tr class="projecttablerow">
                     <td class="projecttabletext">
+                        <div class="sc-content-editable11">
                         <p class="text">Patent Model Museum, 2015</p>
+                        </div>
                     </td>
                     <td>
+                        <div class="sc-content-editable12">
                         <img class="projecttableimg" src="http://www.patentmodel.org/images/models/228125.jpg"/>
+                        </div>
                     </td>
                 </tr>
                 <tr class="projecttablerow">
                     <td class="projecttabletext">
+                        <div class="sc-content-editable13">
                         <p class="text">Artifacts at the Beekman Mill House, 2014</p>
+                        </div>
                     </td>
                     <td>
+                        <div class="sc-content-editable14">
                         <img class="projecttableimg" src="https://scontent-lga.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/1937459_366732940141331_8626747291356556578_n.jpg?oh=a2fed382d8c061826a55f0532b01e41c&oe=55AE4CC6"/>
+                        </div>
                     </td>
                 </tr>
                 <tr class="projecttablerow">
                     <td class="projecttabletext">
+                        <div class="sc-content-editable15">
                         <p class="text">Beekman Mill House, 2014</p>
+                        </div>
                     </td>
                     <td>
+                        <div class="sc-content-editable16">
                         <img class="projecttableimg" src="https://scontent-lga.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/10482454_360153134132645_2278158058168730969_n.jpg?oh=a4b8dbcee7957aeb59b54196d991af5e&oe=55BC070B"/>
+                        </div>
                     </td>
                 </tr>
                 <tr class="projecttablerow">
                     <td class="projecttabletext">
+                        <div class="sc-content-editable17">
                         <p class="text">Apouquague Friends Burial Ground, 2012</p>
+                        </div>
                     </td>
                     <td>
+                        <div class="sc-content-editable18">
                         <img class="projecttableimg" src="http://1.bp.blogspot.com/-n6hVccqAzDs/UsmwJyBvtjI/AAAAAAAAACM/6jfHL-Mul-8/s640/Cemetery+Newspaper.jpeg"/>
+                        </div>
                     </td>
                 </tr>
                 </tbody>
@@ -139,9 +155,11 @@
         <div id="news" class="container">
             <ul id="newslist">
                 <li class="text newsitem">
+                    <div class="sc-content-editable19">
                     <a class="newspagelink" target="_blank" href="http://www.twcnews.com/archives/nys/hudson-valley/2014/08/2/youth-helping-to-save-old-mill-house-in-beekman-NY_757971.old.html">
                         Time Warner Cable News, August 2014
                     </a>
+                    </div>
                 </li>
                 <li class="text newsitem">
                     <a class="newspagelink" target="_blank" href="http://www.poughkeepsiejournal.com/story/news/2014/07/27/beekman-mill-house-youth/13252745/">
