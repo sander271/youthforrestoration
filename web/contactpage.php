@@ -91,20 +91,6 @@
                 </tr>
             </table>
         </form>
-
-<!--        <form id="infoform" class="container">-->
-<!--            <label id="namelabel" class="text">Name:</label>-->
-<!--            <input type="text" name="fullname"/><br/>-->
-<!--            <br/>-->
-<!--            <label id="emaillabel" class="text">Email:</label>-->
-<!--            <input type="text" name="email"/><br/>-->
-<!--            <br/>-->
-<!--            <label id="otherinfolabel" class="text">Other contact info:</label>-->
-<!--            <input type="text" name="extrainfo"/><br/>-->
-<!--            <br/>-->
-<!--            <label id="textarealabel" class="text">Message:</label>-->
-<!--            <textarea></textarea>-->
-<!--        </form>-->
         <br/>
     </div>
     <div class="clearfooter"></div>
