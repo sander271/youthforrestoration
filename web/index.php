@@ -35,8 +35,8 @@
 
 <div id="contentwrapper">
     <div id="navbarspace"></div>
-    <div id="navbar">
-        <ul id="menubar" class="container">
+    <div id="navbar" class="container">
+        <ul id="menubar">
             <?php
             $navBarName = array("Home", "About Us", "Projects", "News", "Contact", "Donate");
             $navbarFunction = array("home()", "aboutpage()", "projectpage()", "newspage()", "contactpage()", "donatepage()");
@@ -44,13 +44,8 @@
                 echo "<li class=\"nav-item\"' onclick=".$navbarFunction[$i].">".$navBarName[$i]."</li>";
             }
             ?>
-<!--            <li class="nav-item" onclick=home()>Home</li>-->
-<!--            <li class="nav-item" onclick=aboutpage()>About Us</li>-->
-<!--            <li class="nav-item" onclick="projectpage()">Projects</li>-->
-<!--            <li class="nav-item" onclick="newspage()">News</li>-->
-<!--            <li class="nav-item" onclick="contactpage()">Contact</li>-->
-<!--            <li class="nav-item" onclick="donatepage()">Donate</li>-->
         </ul>
+        <img id="logo" src="http://youthforrestoration.org/uploads/3/5/9/5/3595510/764724.png"/>
     </div>
 
     <div id="body-wrapper-home">
@@ -92,11 +87,6 @@
                                     echo "<li class=\"text font\">{$name}</li>";
                                 }
                             ?>
-<!--                            <li class="text font">Eric Layden</li>-->
-<!--                            <li class="text font">Lauren Macdonald</li>-->
-<!--                            <li class="text font">Lauren Neville</li>-->
-<!--                            <li class="text font">​Jordon Scocozza​</li>-->
-<!--                            <li class="text font">Christian Soto</li>-->
                         </ul>
                     </div>
                 </td>
@@ -135,44 +125,6 @@
                         echo "</tr>";
                     }
                 ?>
-<!--                <tr class="projecttablerow">-->
-<!--                    <td class="projecttabletext">-->
-<!--                        <div class="sc-content-editable11">-->
-<!--                        <p class="text">Patent Model Museum, 2015</p>-->
-<!--                        </div>-->
-<!--                    </td>-->
-<!--                    <td>-->
-<!--                        <img class="projecttableimg" src="http://www.patentmodel.org/images/models/228125.jpg"/>-->
-<!--                    </td>-->
-<!--                </tr>-->
-<!--                <tr class="projecttablerow">-->
-<!--                    <td class="projecttabletext">-->
-<!--                        <div class="sc-content-editable13">-->
-<!--                        <p class="text">Artifacts at the Beekman Mill House, 2014</p>-->
-<!--                        </div>-->
-<!--                    </td>-->
-<!--                    <td>-->
-<!--                        <img class="projecttableimg" src="https://scontent-lga.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/1937459_366732940141331_8626747291356556578_n.jpg?oh=a2fed382d8c061826a55f0532b01e41c&oe=55AE4CC6"/>-->
-<!--                    </td>-->
-<!--                </tr>-->
-<!--                <tr class="projecttablerow">-->
-<!--                    <td class="projecttabletext">-->
-<!--                        <div class="sc-content-editable15">-->
-<!--                        <p class="text">Beekman Mill House, 2014</p>-->
-<!--                        </div>-->
-<!--                    </td>-->
-<!--                    <td>-->
-<!--                        <img class="projecttableimg" src="https://scontent-lga.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/10482454_360153134132645_2278158058168730969_n.jpg?oh=a4b8dbcee7957aeb59b54196d991af5e&oe=55BC070B"/>-->
-<!--                    </td>-->
-<!--                </tr>-->
-<!--                <tr class="projecttablerow">-->
-<!--                    <td class="projecttabletext">-->
-<!--                        <p class="text">Apouquague Friends Burial Ground, 2012</p>-->
-<!--                    </td>-->
-<!--                    <td>-->
-<!--                        <img class="projecttableimg" src="http://1.bp.blogspot.com/-n6hVccqAzDs/UsmwJyBvtjI/AAAAAAAAACM/6jfHL-Mul-8/s640/Cemetery+Newspaper.jpeg"/>-->
-<!--                    </td>-->
-<!--                </tr>-->
                 </tbody>
             </table>
         </div>
