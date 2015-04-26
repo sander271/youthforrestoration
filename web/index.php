@@ -1,26 +1,26 @@
-<?php //include "sitecake/server/sitecake_entry.php"; ?>
+<?php include "sitecake/server/sitecake_entry.php"; ?>
 <!DOCTYPE html>
 <html>
 <head>
     <title>YouthForRestoration</title>
     <script>
         function home(){
-            location.assign("#body-wrapper-home");
+            location.assign("#home-bar");
         }
         function aboutpage(){
-            location.assign("#body-wrapper-about");
+            location.assign("#about-bar");
         }
         function contactpage(){
-            location.assign("#body-wrapper-contact");
+            location.assign("#contact-bar");
         }
         function projectpage(){
-            location.assign("#body-wrapper-projects");
+            location.assign("#projects-bar");
         }
         function newspage(){
-            location.assign("#body-wrapper-news");
+            location.assign("#news-bar");
         }
         function donatepage(){
-            location.assign("#body-wrapper-donate");
+            location.assign("#donate-bar");
         }
     </script>
     <link type="text/css" rel="stylesheet" href="CSS/layout.css"/>
@@ -48,7 +48,9 @@
         <img id="logo" src="http://youthforrestoration.org/uploads/3/5/9/5/3595510/764724.png"/>
     </div>
 
-    <div id="body-wrapper-home">
+    <div id="home-bar"></div>
+
+    <div id="body-wrapper-home" class="page">
         <div id="homepagespace"></div>
         <div id="homepagecontent" class="container sc-content-editable">
             <h2 class="text">Youth for Restoration is a youth-led, nonprofit  organization located in the Hudson Valley, New York.
@@ -56,7 +58,9 @@
         </div>
     </div>
 
-    <div id="body-wrapper-about">
+    <div id="about-bar" class="bar"></div>
+
+    <div id="body-wrapper-about" class="page">
         <table>
             <thead></thead>
             <tbody>
@@ -95,7 +99,9 @@
         </table>
     </div>
 
-    <div id="body-wrapper-projects">
+    <div id="projects-bar" class="bar"></div>
+
+    <div id="body-wrapper-projects" class="page">
         <br/>
         <br/>
         <div id="projectoverview" class="container">
@@ -130,7 +136,9 @@
         </div>
     </div>
 
-    <div id="body-wrapper-news">
+    <div id="news-bar" class="bar"></div>
+
+    <div id="body-wrapper-news" class="page">
         <div id="news" class="container">
             <ul id="newslist">
                 <li class="text newsitem">
@@ -163,7 +171,9 @@
         </div>
     </div>
 
-    <div id="body-wrapper-contact">
+    <div id="contact-bar" class="bar"></div>
+
+    <div id="body-wrapper-contact" class="page">
         <div class="sc-content-editable6">
         <h1 class="text" id="contactpageinfo">Please feel free to reach out to us using this form. If you would like to get involved, we welcome ​
             volunteers. Your support is invaluable in helping us preserve our history!​</h1>
@@ -221,7 +231,9 @@
         <br/>
     </div>
 
-    <div id="body-wrapper-donate">
+    <div id="donate-bar" class="bar"></div>
+
+    <div id="body-wrapper-donate" class="page">
         <table>
             <tbody>
             <tr>

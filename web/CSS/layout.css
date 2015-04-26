@@ -20,7 +20,8 @@ and open the template in the editor.
 }
 
 .container{
-    background-color: rgba(0, 0, 0, 0.52);
+    background-color: #738083;
+    border-radius: 1em;
 }
 
 .nav-item{
@@ -35,6 +36,27 @@ and open the template in the editor.
     font-weight: bold;
 }
 
+.clearfooter{
+    height: 6em;
+    clear: both;
+}
+
+.bar{
+    width: 100%;
+    height: 6em;
+    background-color: rgb(146, 206, 211);
+}
+
+.page{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+div#home-bar{
+    width: 100%;
+    height: 6em;
+}
+
 ul#menubar{
     list-style-type: none;
     padding: 1em;
@@ -43,7 +65,8 @@ ul#menubar{
 html, body{
     margin: 0 auto;
     width: 100%;
-    background-image: url("http://imagenesfotos.com/wp-content/2008/08/paisajes-espetaculares-186.jpg");
+    background-color: #21616C;
+    /*background-image: url("http://imagenesfotos.com/wp-content/2008/08/paisajes-espetaculares-186.jpg");*/
     height: 100%;
     /*background-size: 100em;*/
 }
@@ -75,7 +98,7 @@ p.size13{
 }
 
 div#navbarspace{
-    height: 5em;
+    height: 6em;
 }
 
 div#contentwrapper{
@@ -84,15 +107,9 @@ div#contentwrapper{
     position: relative;
 }
 
-.clearfooter {
-    height: 6em;
-    clear: both;
-}
-
 img#logo{
     position: relative;
     float: right;
     top: -6em;
     height: 6.3em;
 }
-

@@ -10,13 +10,15 @@ div#left{
     padding: .5em;
 }
 div#right{
-    width: 65%;
+    width: 45%;
     padding-bottom: .5em;
     padding-top: .5em;
+    margin: 0 auto;
+    padding-left: 2em;
 }
 
 td#aboutpagetdleft{
-    padding-right: 2em;
+    padding-left: 2em;
     width: 50%;
 }
 

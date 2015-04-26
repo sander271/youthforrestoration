@@ -1,14 +1,13 @@
 div#homepagecontent{
     width: 60%;
-    float: right;
+    margin: 0 auto;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
 }
 
 h2{
     padding-left: .4em;
     padding-right: .4em;
 }
-
-div#homepagespace{
-    height: 20em;
-}
-
