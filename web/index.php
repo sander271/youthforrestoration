@@ -41,7 +41,7 @@
             $navBarName = array("Home", "About Us", "Projects", "News", "Contact", "Donate");
             $navbarFunction = array("home()", "aboutpage()", "projectpage()", "newspage()", "contactpage()", "donatepage()");
             for($i = 0; $i < count($navBarName); $i++){
-                echo "<li class=\"nav-item\" onclick=\"{$navbarFunction[$i]}\">{$navBarName[$i]}</li>";
+                echo "<li class=\"nav-item\" onclick=\"" .$navbarFunction[$i]. "/>" .$navBarName[$i]. "</li>";
             }
             ?>
         </ul>
@@ -88,7 +88,7 @@
                             <?php
                                 $names = array("Eric Layden", "Lauren Macdonald", "Lauren Neville", "Jordan Scocozza", "Christian Soto");
                                 foreach($names as $name){
-                                    echo "<li class=\"text font\">{$name}</li>";
+                                    echo "<li class=\"text font\">" .$name. "</li>";
                                 }
                             ?>
                         </ul>
@@ -123,11 +123,11 @@
                     for($i = 0; $i < count($projectLabels); $i++){
                         echo "<tr class=\"projecttablerow\">";
                         echo "<td class=\"projecttabletext\">";
-                        echo "<div class=\"sc-content-editable1{$i}\">";
-                        echo "<p class=\"text\">{$projectLabels[$i]}</p>";
+                        echo "<div class=\"sc-content-editable1" .$i. "\"/>";
+                        echo "<p class=\"text\">" .$projectLabels[$i]. "</p>";
                         echo "</div>";
                         echo "</td>";
-                        echo "<td><img class=\"projecttableimg\" src=\"{$projectImgURLs[$i]}\"/></td>";
+                        echo "<td><img class=\"projecttableimg\" src=\"" .$projectImgURLs[$i]. "\"/></td>";
                         echo "</tr>";
                     }
                 ?>
