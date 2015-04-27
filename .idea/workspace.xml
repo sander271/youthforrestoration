@@ -33,7 +33,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="5321">
+            <state vertical-scroll-proportion="90.88461" vertical-offset="2856" max-vertical-offset="5321">
               <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
               <folding>
                 <marker date="1430167854546" expanded="true" signature="5065:5125" placeholder="..." />
@@ -47,27 +47,17 @@
         <entry file="file://$PROJECT_DIR$/web/send_form_email.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.039170507" vertical-offset="0" max-vertical-offset="868">
-              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+              <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autoload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/vendor/autoload.php">
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="289">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -89,7 +79,6 @@
         <option value="$PROJECT_DIR$/sitecake/server/config.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/web/.htaccess" />
         <option value="$PROJECT_DIR$/web/sitecake/server/config.php" />
         <option value="$PROJECT_DIR$/web/aboutpage.php" />
         <option value="$PROJECT_DIR$/web/contactpage.php" />
@@ -103,6 +92,7 @@
         <option value="$PROJECT_DIR$/web/CSS/projects.css" />
         <option value="$PROJECT_DIR$/web/projects.php" />
         <option value="$PROJECT_DIR$/web/index.php" />
+        <option value="$PROJECT_DIR$/web/.htaccess" />
         <option value="$PROJECT_DIR$/web/send_form_email.php" />
       </list>
     </option>
@@ -565,14 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30425057" vertical-offset="0" max-vertical-offset="894">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/aboutpage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9230769" vertical-offset="408" max-vertical-offset="1700">
@@ -725,7 +707,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="5321">
+        <state vertical-scroll-proportion="90.88461" vertical-offset="2856" max-vertical-offset="5321">
           <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
           <folding>
             <marker date="1430167854546" expanded="true" signature="5065:5125" placeholder="..." />
@@ -734,10 +716,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/send_form_email.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.039170507" vertical-offset="0" max-vertical-offset="868">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
           <folding />
         </state>
       </provider>

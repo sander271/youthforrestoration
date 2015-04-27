@@ -15,3 +15,5 @@
 ## a case when the index page has to be referenced
 #RewriteCond %{REQUEST_URI} ^/?$
 #RewriteRule ^(.*)$ sitecake/server/sitecake_entry.php?url=index.html [QSA,L]
+SetEnv SENDGRID_USERNAME app35784872@heroku.com
+SetEnv SENDGRID_PASSWORD djlwgn2x
