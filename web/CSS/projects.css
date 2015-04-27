@@ -7,3 +7,11 @@ button#backButton{
     cursor: pointer;
     margin-left: 14em;
 }
+
+a#sitecakeLogin{
+    padding: 1px 6px;
+    text-decoration: none;
+    color: buttontext;
+    border: 2px outset buttonface;
+    background-color: buttonface;
+}

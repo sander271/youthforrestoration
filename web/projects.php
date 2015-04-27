@@ -24,6 +24,6 @@
             <h3>Empty Template for projects. login to sitecake to edit</h3>
         </div>
         <button id="backButton" onclick="back()">Back</button>
-        <a href="#" class="sc-login">Admin login</a>
+        <a id="sitecakeLogin" href="#" class="text sc-login">Admin login</a>
     </body>
 </html>
