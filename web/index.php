@@ -1,4 +1,4 @@
-<?php include "sitecake/server/sitecake_entry.php"; ?>
+<?php //include "sitecake/server/sitecake_entry.php"; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -255,6 +255,7 @@
                         <p class="text donatetext">Here is how you can lend your support:</p>
                         <h1 class="text donateheader">Donate Online</h1>
                         <p class="text donatetext">Click here to donate using PayPal</p>
+                        <img id="paypal" src="http://4.bp.blogspot.com/-8NxMg3Tm-tY/U4wEqN1ukyI/AAAAAAAACOo/yOe3YBweYAE/s1600/paypal+donate.png"/>
                         <h1 class="text donateheader">Donate by Mail</h1>
                         <p class="text donatetext">Mail your contribution check, payable to “Youth For Restoration” to:</p>
                         <p class="text donatetext">Youth For Restoration<br>​
