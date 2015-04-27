@@ -46,9 +46,12 @@
       <file leaf-file-name="send_form_email.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/send_form_email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.039170507" vertical-offset="0" max-vertical-offset="868">
-              <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
-              <folding />
+            <state vertical-scroll-proportion="0.64631337" vertical-offset="0" max-vertical-offset="868">
+              <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+              <folding>
+                <element signature="e#6#38#0#PHP" expanded="true" />
+                <element signature="e#562#578#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -354,7 +357,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1496">
           <caret line="1" column="30" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#6#38#0#PHP" expanded="true" />
+            <element signature="e#562#578#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -726,9 +732,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/send_form_email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.039170507" vertical-offset="0" max-vertical-offset="868">
-          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
-          <folding />
+        <state vertical-scroll-proportion="0.64631337" vertical-offset="0" max-vertical-offset="868">
+          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#38#0#PHP" expanded="true" />
+            <element signature="e#562#578#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
