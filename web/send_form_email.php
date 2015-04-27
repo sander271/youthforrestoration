@@ -10,8 +10,14 @@ $email
     ->setHtml('<strong>Hello World!</strong>')
 ;
 
-$sendgrid->send($email);
-
+try {
+    $sendgrid->send($email);
+} catch(\SendGrid\Exception $e) {
+    echo $e->getCode();
+    foreach($e->getErrors() as $er) {
+        echo $er;
+    }
+}
 ?>
 <?php
 //// the message
