@@ -246,7 +246,7 @@
         <table>
             <tbody>
             <tr>
-                <td id="donatepagetdleft">
+                <td id="donatepagetdleft" class="container">
                     <div id="leftside">
                         <h1 class="text donateheader">Ways to Give</h1>
                         <p class="text donatetext">​
