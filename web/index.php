@@ -246,8 +246,8 @@
         <table>
             <tbody>
             <tr>
-                <td id="donatepagetdleft" class="container">
-                    <div id="leftside">
+                <td id="donatepagetdleft">
+                    <div id="leftside" class="container">
                         <h1 class="text donateheader">Ways to Give</h1>
                         <p class="text donatetext">​
                             Your contribution, no matter how large or small, will help support the<br> ​
