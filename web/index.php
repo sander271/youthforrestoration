@@ -25,6 +25,9 @@
         function projects(){
             location.assign("projects.php");
         }
+        function email(){
+            location.assign("send_form_email.php");
+        }
     </script>
     <link type="text/css" rel="stylesheet" href="CSS/layout.css"/>
     <link type="text/css" rel="stylesheet" href="CSS/homepage.css"/>
@@ -48,7 +51,7 @@
             }
             ?>
         </ul>
-        <img id="logo" src="http://youthforrestoration.org/uploads/3/5/9/5/3595510/764724.png"/>
+        <img onclick="email()" id="logo" src="http://youthforrestoration.org/uploads/3/5/9/5/3595510/764724.png"/>
         <a href="https://www.facebook.com/youthforrestoration" target="_blank">
             <img id="facebook" src = "https://www.facebook.com/images/fb_icon_325x325.png"/>
         </a>

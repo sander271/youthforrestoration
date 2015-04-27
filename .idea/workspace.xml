@@ -30,23 +30,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="90.88461" vertical-offset="2856" max-vertical-offset="5321">
-              <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.5092166" vertical-offset="459" max-vertical-offset="5372">
+              <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
               <folding>
-                <marker date="1430167854546" expanded="true" signature="5065:5125" placeholder="..." />
-                <marker date="1430167854546" expanded="true" signature="5065:6869" placeholder="..." />
+                <marker date="1430172163411" expanded="true" signature="5171:5231" placeholder="..." />
+                <marker date="1430172163411" expanded="true" signature="5171:6975" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="send_form_email.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="send_form_email.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/send_form_email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17626728" vertical-offset="0" max-vertical-offset="868">
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="782">
               <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
               <folding>
                 <element signature="e#572#588#0#PHP" expanded="true" />
@@ -94,9 +94,9 @@
         <option value="$PROJECT_DIR$/web/CSS/donatepage.css" />
         <option value="$PROJECT_DIR$/web/CSS/projects.css" />
         <option value="$PROJECT_DIR$/web/projects.php" />
-        <option value="$PROJECT_DIR$/web/index.php" />
         <option value="$PROJECT_DIR$/web/.htaccess" />
         <option value="$PROJECT_DIR$/web/send_form_email.php" />
+        <option value="$PROJECT_DIR$/web/index.php" />
       </list>
     </option>
   </component>
@@ -399,8 +399,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1430167854546" expanded="true" signature="5065:5125" placeholder="..." />
-            <marker date="1430167854546" expanded="true" signature="5065:6869" placeholder="..." />
+            <marker date="1430172163411" expanded="true" signature="5171:5231" placeholder="..." />
+            <marker date="1430172163411" expanded="true" signature="5171:6975" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -714,17 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="90.88461" vertical-offset="2856" max-vertical-offset="5321">
-          <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
-          <folding>
-            <marker date="1430167854546" expanded="true" signature="5065:5125" placeholder="..." />
-            <marker date="1430167854546" expanded="true" signature="5065:6869" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
@@ -735,11 +724,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/send_form_email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17626728" vertical-offset="0" max-vertical-offset="868">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="782">
           <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
           <folding>
             <element signature="e#572#588#0#PHP" expanded="true" />
             <element signature="e#810#841#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5092166" vertical-offset="459" max-vertical-offset="5372">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+          <folding>
+            <marker date="1430172163411" expanded="true" signature="5171:5231" placeholder="..." />
+            <marker date="1430172163411" expanded="true" signature="5171:6975" placeholder="..." />
           </folding>
         </state>
       </provider>
