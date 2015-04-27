@@ -7,7 +7,7 @@ $email
     ->setFrom('sanders271@gmail.com')
     ->setSubject('Subject goes here')
     ->setText('Hello World!')
-    ->setHtml('<strong>Hello World!</strong>')
+    ->setHtml('<strong>This was sent at 5:53</strong>')
 ;
 
 try {
