@@ -41,7 +41,7 @@
             $navBarName = array("Home", "About Us", "Projects", "News", "Contact", "Donate");
             $navbarFunction = array("home()", "aboutpage()", "projectpage()", "newspage()", "contactpage()", "donatepage()");
             for($i = 0; $i < count($navBarName); $i++){
-                echo "<li class=\"nav-item\" onclick=\"" .$navbarFunction[$i]. "/>" .$navBarName[$i]. "</li>";
+                echo "<li class=\"nav-item\" onclick=\"{$navbarFunction[$i]}\"/>{$navBarName[$i]}</li>";
             }
             ?>
         </ul>
