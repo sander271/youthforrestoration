@@ -1,4 +1,4 @@
-<?php //include "sitecake/server/sitecake_entry.php"; ?>
+<?php include "sitecake/server/sitecake_entry.php"; ?>
 <!DOCTYPE html>
 <html>
 <head>
