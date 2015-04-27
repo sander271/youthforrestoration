@@ -20,7 +20,7 @@
         </script>
     </head>
     <body>
-        <div id="projects-wrapper" class="sc-content-editable">
+        <div id="projects-wrapper" class="sc-content-editable30">
             <h3>Empty Template for projects. login to sitecake to edit</h3>
         </div>
         <button id="backButton" onclick="back()">Back</button>
