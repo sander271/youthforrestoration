@@ -19,12 +19,10 @@
         <CLASSES>
           <root url="phar://C:/php/composer.phar" />
           <root url="phar://C:/php/pharcommand.phar" />
-          <root url="phar://$MODULE_DIR$/composer.phar" />
         </CLASSES>
         <SOURCES>
           <root url="phar://C:/php/composer.phar" />
           <root url="phar://C:/php/pharcommand.phar" />
-          <root url="phar://$MODULE_DIR$/composer.phar" />
         </SOURCES>
       </library>
     </orderEntry>
