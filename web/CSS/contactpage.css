@@ -9,27 +9,11 @@ textarea{
     height: 200px;
 }
 
-/*label#textarealabel{*/
-    /*font-size: 1.2em;*/
-    /*position: relative;*/
-    /*top: -10em;*/
-    /*padding-right: .5em;*/
-/*}*/
-
 label{
     font-size: 1.2em;
     padding-right: 6em;
 }
 
-/*label#emaillabel{*/
-    /*font-size: 1.2em;*/
-    /*padding-right: 6em;*/
-/*}*/
-
-/*label#otherinfolabel{*/
-    /*font-size: 1.2em;*/
-    /*padding-right: 1.15em;*/
-/*}*/
 
 form{
     margin: 0 auto;
