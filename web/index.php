@@ -46,6 +46,15 @@
             ?>
         </ul>
         <img id="logo" src="http://youthforrestoration.org/uploads/3/5/9/5/3595510/764724.png"/>
+        <a href="https://www.facebook.com/youthforrestoration" target="_blank">
+            <img id="facebook" src = "https://www.facebook.com/images/fb_icon_325x325.png"/>
+        </a>
+        <a href="https://twitter.com/Y_F_R_" target="_blank">
+            <img id="twitter" src = "http://www.buggytours.nl/img/Twitterbutton.png"/>
+        </a>
+        <a href="http://youthforrestoration.blogspot.com/" target="_blank">
+            <img id="blogspot" src = "http://icons.iconarchive.com/icons/marcus-roberto/google-play/512/Blogger-icon.png"/>
+        </a>
     </div>
 
     <div id="home-bar"></div>

@@ -113,3 +113,31 @@ img#logo{
     top: -6em;
     height: 6.3em;
 }
+
+img#facebook{
+    position: relative;
+    width: 3em;
+    height: 3em;
+    float: right;
+    top: -4em;
+    right: 9em;
+}
+
+img#twitter{
+    position: relative;
+    width: 3.3em;
+    height: 3.4em;
+    float: right;
+    top: -4.2em;
+    right: 2em;
+}
+
+img#blogspot{
+    position: relative;
+    width: 3em;
+    height: 3em;
+    float: right;
+    top: -4em;
+    right: -5em;
+
+}
