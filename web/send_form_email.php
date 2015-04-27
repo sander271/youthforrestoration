@@ -1,10 +1,10 @@
 <?php
 require 'vendor/autoload.php';
-$sendgrid = new SendGrid('app35784872@heroku.com', 'djlwgn2x');
+$sendgrid = new SendGrid('app35784872@heroku.com', 'djlwgn2x',array("turn_off_ssl_verification" => true));
 $email = new SendGrid\Email();
 $email
     ->addTo('sanders271@gmail.com')
-    ->setFrom('me@bar.com')
+    ->setFrom('sanders271@gmail.com')
     ->setSubject('Subject goes here')
     ->setText('Hello World!')
     ->setHtml('<strong>Hello World!</strong>')
@@ -12,6 +12,7 @@ $email
 
 try {
     $sendgrid->send($email);
+    echo "Email sent";
 } catch(\SendGrid\Exception $e) {
     echo $e->getCode();
     foreach($e->getErrors() as $er) {
