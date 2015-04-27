@@ -1,0 +1,9 @@
+div#projects-wrapper{
+    width: 100%;
+    min-height: 2em;
+}
+
+button#backButton{
+    cursor: pointer;
+    margin-left: 14em;
+}

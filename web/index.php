@@ -22,6 +22,9 @@
         function donatepage(){
             location.assign("#donate-bar");
         }
+        function projects(){
+            location.assign("projects.php");
+        }
     </script>
     <link type="text/css" rel="stylesheet" href="CSS/layout.css"/>
     <link type="text/css" rel="stylesheet" href="CSS/homepage.css"/>
@@ -131,7 +134,7 @@
 
                     for($i = 0; $i < count($projectLabels); $i++){
                         echo "<tr class=\"projecttablerow\">";
-                        echo "<td class=\"projecttabletext\">";
+                        echo "<td class=\"projecttabletext\" onclick=\"projects()\">";
                         echo "<div class=\"sc-content-editable1" .$i. "\"/>";
                         echo "<p class=\"text\">" .$projectLabels[$i]. "</p>";
                         echo "</div>";
