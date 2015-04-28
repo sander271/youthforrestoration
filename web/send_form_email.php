@@ -11,7 +11,7 @@
 </head>
 <body>
         <?php
-        require 'vendor/autoload.php';
+        include 'vendor/autoload.php';
 
         if(isset($_POST['email'])) {
         // EDIT THE 2 LINES BELOW AS REQUIRED
