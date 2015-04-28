@@ -194,7 +194,7 @@
             volunteers. Your support is invaluable in helping us preserve our history!​</h1>
         </div>
 
-        <form name="contactform" method="post" action="send_form_email.php" class="container">
+        <form name="contactform" method="get" action="send_form_email.php" class="container">
             <table width="450px">
                 <tr>
                     <td valign="top">
