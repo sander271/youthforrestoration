@@ -20,10 +20,10 @@
             function died($error)
             {
                 // your error code can go here
-                echo "We are very sorry, but there were error(s) found with the form you submitted. ";
-                echo "These errors appear below.<br /><br />";
-                echo $error . "<br /><br />";
-                echo "Please go back and fix these errors.<br /><br />";
+                echo "<p class='text'>We are very sorry, but there were error(s) found with the form you submitted. </p>";
+                echo "<p class='text'>These errors appear below. </p><br /><br />";
+                echo "<p class='text'>" .$error. "</p><br /><br />";
+                echo "<p class='text'>Please go back and fix these errors.</p><br /><br />";
                 die();
             }
 
